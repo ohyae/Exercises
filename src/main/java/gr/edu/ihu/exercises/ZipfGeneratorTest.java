@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package gr.edu.ihu.exercises;
 
 import java.util.LinkedHashMap;
@@ -11,10 +6,6 @@ import java.util.NavigableMap;
 import java.util.Random;
 import java.util.TreeMap;
 
-/**
- *
- * @author Hyae
- */
 public class ZipfGeneratorTest
 {
     public static void main(String[] args) {
