@@ -64,23 +64,23 @@ public class RomanToNum {
         return res;
     }
     
-    /*
-    public int toRandom(){
-        int index = -1;
-        String[] input = new String[10];        
-        Random r = new Random();
-        for (int j=0; j<input.length; j++) {
-            input[j] = "a" + (r.nextInt(1000));
-            System.out.println(input[j] + "\n");            
-        }
-        return index;
-    }*/
+    
+    public static void swap(int a, int b) {
+      int temp = a;
+      a = b;
+      b = temp;
+   }
     
     public static void main(String[] args) {
         
         RomanToNum rm = new RomanToNum();
         String str = "CDLIX";
-        System.out.println("Integer for " + str + " : " + rm.romToNum(str));       
+        System.out.println("Integer for " + str + " : " + rm.romToNum(str)); 
+        int a = 5;
+        int b = 7;
+        rm.swap(a,b);
+        System.out.println(a + "," + b);
+        
         
     }
     
